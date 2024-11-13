@@ -211,6 +211,9 @@ MERGE (b:Book {id: toInteger(row.book_id), title: row.book_title, author: row.bo
 
 ### Captures
 
+- [Graph des livres](https://github.com/kouroumapaul/Tp_Neo4j/blob/master/books.svg)
+- [Graph des personnes](https://github.com/kouroumapaul/Tp_Neo4j/blob/master/persons.svg)
+
 
 
 ### Création de la rélation READS
@@ -226,6 +229,11 @@ MERGE (p)-[:READS]->(b);
 ### Captures
 
 
+- [Graph des personnes](https://github.com/kouroumapaul/Tp_Neo4j/blob/master/graph.svg?raw)
+
+
+
 ## Auteur
 
 - Paul KOUROUMA
+
