@@ -211,8 +211,8 @@ MERGE (b:Book {id: toInteger(row.book_id), title: row.book_title, author: row.bo
 
 ### Captures
 
-- [Graph des livres](https://github.com/kouroumapaul/Tp_Neo4j/blob/master/books.svg)
-- [Graph des personnes](https://github.com/kouroumapaul/Tp_Neo4j/blob/master/persons.svg)
+- ![Graph des livres](https://raw.githubusercontent.com/kouroumapaul/Tp_Neo4j/master/books.svg)
+- ![Graph des personnes](https://raw.githubusercontent.com/kouroumapaul/Tp_Neo4j/master/persons.svg)
 
 
 
@@ -229,7 +229,7 @@ MERGE (p)-[:READS]->(b);
 ### Captures
 
 
-- [Graph des personnes](https://github.com/kouroumapaul/Tp_Neo4j/blob/master/graph.svg?raw)
+- ![Graph des relations](https://raw.githubusercontent.com/kouroumapaul/Tp_Neo4j/blob/master/graph.svg)
 
 
 
